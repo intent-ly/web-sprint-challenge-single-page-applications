@@ -7,14 +7,6 @@ import Help from './Help'
 
 
 const App = () => {
-  const [form, setForm] = useState({
-    name: '',
-    size:'',
-    sauce:'',
-    toppings:'',
-    gluten:'',
-    instruction:''
-  })
   
   return (
     <>
